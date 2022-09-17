@@ -1,6 +1,8 @@
 package com.capstone.atyourservicecapstone2;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -20,6 +22,15 @@ public class ProfilePage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile_page);
 
+		DrawerLayout drawerLayout = findViewById(R.id.box);
+
+		findViewById(R.id.imageMenu).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				drawerLayout.openDrawer(GravityCompat.START);
+			}
+		});
 
     }
 }
+
