@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">AtYourServiceCapstone2</string>
+	<string name="app_name">AtYourServiceCapstone2</string>
+	<string name="verified">Verified</string>
+	<string name="janna_mae">Janna_Mae</string>
+	<!-- TODO: Remove or change this placeholder text -->
+	<string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
