@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
@@ -22,7 +23,7 @@ public class ProfilePage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile_page);
 
-		DrawerLayout drawerLayout = findViewById(R.id.box);
+		DrawerLayout drawerLayout = findViewById(R.id.drawerlayout);
 
 		findViewById(R.id.imageMenu).setOnClickListener(new View.OnClickListener() {
 			@Override
@@ -31,6 +32,8 @@ public class ProfilePage extends AppCompatActivity {
 			}
 		});
 
+		NavigationView navigationView = findViewById(R.id.navigationView);
+		navigationView.setItemIconTintList(null);
     }
 }
 
