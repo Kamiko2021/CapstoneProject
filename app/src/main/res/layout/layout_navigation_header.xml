@@ -27,7 +27,7 @@
 		android:layout_height="wrap_content"
 		android:layout_marginStart="10dp"
 		android:text="@string/janna_mae"
-		android:textColor="@color/colorPrimaryText"
+		android:textColor="@color/black"
 		android:textSize="18sp"
 		android:textStyle="bold"
 		app:layout_constraintBottom_toTopOf="@+id/viewSupporter"
@@ -38,7 +38,7 @@
 		android:layout_height="wrap_content"
 		android:layout_marginStart="10dp"
 		android:text="@string/verified"
-		android:textColor="green"
+		android:textColor="@color/black"
 		android:textSize="16sp"
 		app:layout_constraintStart_toEndOf="@+id/ImageProfile"
 		app:layout_constraintTop_toBottomOf="@+id/viewSupporter"/>
